@@ -6,7 +6,7 @@ import pika
 # Credentials
 creds = pika.PlainCredentials('user', 'password')
 params = pika.ConnectionParameters('localhost', 5672, 'vhost', creds)
-connection = pika.SelectConnection(params)
+connection = pika.BlockingConnection(params)
 channel = connection.channel()
 
 # Create queue test if it doesn't exist
