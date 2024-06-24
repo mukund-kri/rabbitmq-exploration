@@ -5,14 +5,13 @@ mode. The following example shows how to use the `SelectConnection` class to con
 to RabbitMQ in async mode.
 
 
-## Status
+I have failed to understand how to use the `SelectConnection` class. 
 
-I have failed to get this to work, and I don't understand why.
+- Copying the code from the official documentation works. But that is long and 
+  complex, where the functonality is wrapped in a class.
+- I have failed to write code from first principles.
 
-- The example code from the Pika documentation works. But it's long winded and wraped
-    in a class.
-- My attempts to write it from first principles have failed. I don't understand why.
 
-## What now?
+## Now what?
 
-Abandon this for now. Focus on aio-pica library for now.
+I am going to abandon this for now. I might come back to it later. 
